@@ -5,61 +5,109 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="mar" type="StaticBody2D" parent="."]
-position = Vector2( 41, 104 )
+position = Vector2( 40, 104 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Sprite" type="Sprite" parent="mar"]
+[node name="mar" type="Sprite" parent="mar"]
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 0, 128, 32, 32 )
 
 [node name="praia" type="StaticBody2D" parent="."]
-position = Vector2( 73, 104 )
+position = Vector2( 72, 104 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Sprite" type="Sprite" parent="praia"]
+[node name="praia" type="Sprite" parent="praia"]
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 32, 128, 32, 32 )
 
 [node name="areia" type="StaticBody2D" parent="."]
-position = Vector2( 105, 104 )
+position = Vector2( 104, 104 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Sprite" type="Sprite" parent="areia"]
+[node name="areia" type="Sprite" parent="areia"]
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 64, 128, 32, 32 )
 
 [node name="areia2" type="StaticBody2D" parent="."]
-position = Vector2( 137, 104 )
+position = Vector2( 136, 104 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Sprite" type="Sprite" parent="areia2"]
+[node name="areia2" type="Sprite" parent="areia2"]
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 256, 128, 32, 32 )
 
 [node name="areiasL" type="StaticBody2D" parent="."]
-position = Vector2( 169, 104 )
+position = Vector2( 104, 136 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Sprite" type="Sprite" parent="areiasL"]
+[node name="areiasL" type="Sprite" parent="areiasL"]
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 224, 128, 32, 32 )
+
+[node name="navio" type="StaticBody2D" parent="."]
+position = Vector2( 72, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="navio" type="Sprite" parent="navio"]
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 256, 0, 32, 32 )
+
+[node name="areiaGrama" type="StaticBody2D" parent="."]
+position = Vector2( 136, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="areiaGrama" type="Sprite" parent="areiaGrama"]
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 416, 128, 32, 32 )
+
+[node name="grama" type="StaticBody2D" parent="."]
+position = Vector2( 168, 104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grama" type="Sprite" parent="grama"]
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 448, 128, 32, 32 )
+
+[node name="barco" type="StaticBody2D" parent="."]
+position = Vector2( 40, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="barco" type="Sprite" parent="barco"]
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 192, 0, 32, 32 )
